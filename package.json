@@ -1,0 +1,27 @@
+{
+  "name": "goto-gh",
+  "version": "1.0.0",
+  "description": "A simple CLI to open github profiles",
+  "type": "module",
+  "main": "index.mjs",
+  "keywords": [
+    "github",
+    "cli"
+  ],
+  "bin":  {
+    "goto-gh": "./index.mjs"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaclock",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
